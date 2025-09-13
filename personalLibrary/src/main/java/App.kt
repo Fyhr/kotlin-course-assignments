@@ -1,5 +1,20 @@
 package dk.fyhr.kotlin.personalLibrary
 
-import java.io.IO.*
+fun main() {
+    displayMainMenu()
+}
 
-fun main() = println("Hello World!")
+fun displayMainMenu() {
+    println("""
+            Welcome to your Personal Library
+            --------------------------------
+            1 - Create new book entry
+            2 - Delete book entry
+            3 - Show list of books
+            9 - Close application
+            --------------------------------
+            Select option: 
+            """.trimIndent())
+
+    readln() // wait for user input
+}
