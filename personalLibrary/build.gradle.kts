@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "dk.fyhr.kotlin"
-version = "unspecified"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
