@@ -14,17 +14,17 @@ fun displayMainMenu() {
         println("""
             Welcome to your Personal Library
             --------------------------------
-            1 - Create new book entry
-            2 - Delete book entry
-            3 - Show list of books
-            9 - Close application
+             1 - Create new book entry
+             2 - Delete book entry
+             3 - Show list of books
+             9 - Close application
             --------------------------------
             Select option: 
             """.trimIndent())
 
-        val choice = readln().toInt()
-        when(choice){
+        when(val choice = readln().toInt()){
             1 -> enterCreateBookMode()
+            9 -> break
             else -> println("Invalid option [$choice]")
         }
     }
