@@ -1,8 +1,8 @@
-package dk.fyhr.kotlin.personalLibrary.dk.fyhr.kotlin.personalLibrary
+package dk.fyhr.kotlin.personalLibrary
 
-class Book (
+class Book(
     val title: String,
     val numberOfPages: Int,
-    val price: Int,
+    val priceInCents: Int,
     val condition: String
 )
